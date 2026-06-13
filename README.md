@@ -39,7 +39,6 @@ Key objectives include:
 - Preserve regulatory structure by distinguishing MAIN and ANNEX sections
 - Maintain clause-level traceability for requirements referencing
 - Classify requirements into functional categories for systems engineering use
-- Structure outputs for integration into requirements management workflows
 
 ---
 
@@ -85,5 +84,18 @@ end
 
 A --> B --> C --> D --> E --> F --> G --> H --> I --> J --> K
 ```
+---
 
+📈 **6. Project Highlights**
+
+- **Text Extraction & Cleaning Functions** - Extract raw regulatory PDF text and perform structured cleaning by removing headers, footers, page artifacts, and noise tokens to produce normalized input text for processing.
+- **Paragraph structuring** - Reconstruct coherent paragraphs from raw line-based PDF extraction using rule-based segmentation and hyphenation handling to preserve regulatory document structure.
+- **Sentence Segmentation** - Split structured paragraphs into individual sentences to enable requirement-level analysis and classification.
+- **Requirements Detection** - Identify candidate requirements using rule-based linguistic patterns, filtering normative statements containing regulatory obligation keywords such as shall, must, and required.
+- **Requirements Classification** - Categorize extracted requirements into engineering-relevant classes (e.g., Functional, Safety, HMI, Verification, and Documentation) using a rule-based classification framework.
+- **Clause Mapping** - Map each extracted requirement to its originating clause and regulatory hierarchy, preserving document traceability across MAIN and ANNEX sections.
+- **Excel Export and Analysis** - Generate a structured Excel-based requirements dataset and provides analytics on requirement distribution, classification trends, and clause-level hotspots.
+---
+  
+📊 **7. Example Use Case**
 
