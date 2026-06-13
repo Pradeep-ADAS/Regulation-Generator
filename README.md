@@ -99,3 +99,8 @@ A --> B --> C --> D --> E --> F --> G --> H --> I --> J --> K
   
 📊 **7. Example Use Case**
 
+<p align="center">
+  <img src="Console_Output.PNG" width="100%"><br>
+  <b> Impedance Tube Setup for SAC measurement</b>
+</p>
+
