@@ -126,7 +126,7 @@ A --> B --> C --> D --> E --> F --> G --> H --> I --> J --> K
 
 - Additionally, the dashboard highlights clause-level hotspots within the document. For example, clause 6.1.3.1 and several other clauses contain multiple requirement candidates, helping engineers quickly identify high-density regulatory sections for further analysis.
 
-- ⚡ **Processes a typical UNECE regulatory document (~60 pages) in under 20 seconds on a standard local runtime environment**
+- ⚡ **The tool processes a typical UNECE regulatory document (~60 pages) in under 20 seconds on a standard local runtime environment**
 
 <p align="center">
   <img src="Console_Output.PNG" width="70%"><br>
